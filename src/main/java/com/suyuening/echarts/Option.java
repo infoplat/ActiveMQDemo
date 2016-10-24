@@ -64,9 +64,4 @@ public class Option {
     public void setBackgroundColor(Object backgroundColor) {
         this.backgroundColor = backgroundColor;
     }
-
-    public static void main(String[] args) {
-        Option option = new Option();
-        option.backgroundColor("#000000").backgroundColor();
-    }
 }
